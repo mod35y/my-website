@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+     
+    <meta charset="UTF-8">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">   
+    <title>my website</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+    </head>
+
+
+    <body>            
+
+    
+        <nav class="navbar">
+         <h2><i class="fa fa-graduation-cap"></i> MyPortfolio</h2>
+        <div class="nav-links">
+
+            <a href="#main"><i class="fa-solid fa-house"></i> Main</a>
+            <a href="#about me"><i class="fa-solid fa-user"></i>  About Me</a>
+            <a href="#my skills"><i class="fa-solid fa-code"></i> My skills</a>
+            <a href="#my projects"><i class="fa-solid fa-folder-open"></i> My projects</a>
+            <a href="#contact me"><i class="fa-solid fa-envelope"></i> Contact Me</a>
+        </div>
+
+
+        </nav>
+
+        <div class="hero" id="main">
+        <div class="hero-text">
+
+        <p class="welcome">مرحبًا، أنا</p>
+
+        <h1>محمد العطاس</h1>
+
+        <p class="description">
+             مهتم بتطوير الويب وتحليل البيانات
+         </p>
+
+        <p class="hero-subtitle">
+            أبني أفكارًا رقمية لمستقبل أفضل
+        </p>
+        <a href="#contact me" class="hero-button">تواصل معي <i class="fa-solid fa-envelope"></i></a>
+        </div> 
+
+<div class="hero-image">
+        <img src="images/avatar.png.png" alt="">
+    </div> 
+</div> 
+<!--قسم نبذه عني-->
+    <section class="about" id="about me">
+        <div class="about-text">
+     <h2>نبذه عني <i class="fa-solid fa-user"></i></h2>
+
+     <p>
+        انا طالب جامعي اسعى الى تطوير مهاراتي في تصميم المواقع وتحليل البيانات.احب التعلم واكتساب الخبرات الجديده والعمل على مشاريع مفيده
+     </p>
+        </div>
+     <div class="work-img">
+        <img src="images/work.png" alt="" srcset="">
+    </div>
+
+    </section>
+    <!--قسم مهاراتي-->
+
+    <section class="skills" id="my skills">
+        <h2>مهاراتي <i class="fa-solid fa-gears"></i></h2>
+
+        <div class="skills-container">
+         
+            <div class="skill-card">
+                <i class="fa-brands fa-html5 html-icon"></i>
+                <p>HTML</p>
+            </div>
+           
+            <div class="skill-card">
+                <i class="fa-brands fa-css css-icon"></i>
+                <p>CSS</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-brands fa-js js-icon"></i>
+                <p>JS</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-database sql-icon"></i>
+                <p>SQL</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-file-excel excel-icon"></i>
+                <p>EXCEL</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--قسم مشاريعي-->
+
+     <section class="projects" id="my projects">
+        <div class="section-container">
+              <h2 class="section-title">مشاريعي <i class="fa-solid fa-folder"></i></h2>
+            <div class="projects-container">
+
+            <div class="project-card">
+             <img src="images/work.png" alt="">
+             <div class="project-info">
+                
+              <h3>موقع شخصي</h3>
+             <p>موقع شخصي يعرض مهاراتي وأعمالي باستخدام HTML وCSS.</p>
+             <a href="#" class="project-link">عرض المشروع</a> 
+             </div>
+            </div>
+
+            <div class="project-card">
+                <img src="images/dashbord.png" alt="">
+                 <div class="project-info">
+              <h3>لوحه تحكم </h3>
+              <p>تصميم واجهة لوحة تحكم لعرض البيانات بطريقة منظمة.</p>    
+             <a href="#" class="project-link">عرض المشروع</a> 
+                 </div>
+             </div>
+
+              <div class="project-card">
+              <img src="images/weather.png" alt="">
+             <div class="project-info">
+              <h3> تطبيق الطقس </h3>
+             <p>واجهة لعرض حالة الطقس ودرجات الحرارة.</p>
+             <a href="#" class="project-link">عرض المشروع</a> 
+             </div>
+              </div>
+
+              </div>
+        </div>
+     </section>
+
+     <!--قسم تواصل معي-->
+
+     <section class="contact" id="contact me">
+
+        <div class="section-container">
+
+            <h2 class="section-title">تواصل معي <i class="fa-solid fa-envelope"></i></h2>
+             
+        <div class="contact-container">
+
+            <!--نموذج التواصل-->
+
+           <div class="contact-form">
+
+           <h3>تواصل معي</h3>
+           <form>
+           
+            <input 
+                 type="text"
+                 placeholder="الاسم"
+                 required
+                 >
+            
+                
+            <input 
+                 type="email"
+                 placeholder="البريد الاكتروني"
+                 required
+                 >
+     
+                
+            <textarea            
+                 placeholder="الرساله"
+                 rows="5"
+                 required
+                 ></textarea>
+
+                 <button type="submit">
+                          ارسال الرساله               
+                 </button>
+
+                        </form>
+
+                                   </div>
+              <!--معلومات التواصل-->
+              <div class="contact-info">
+
+                <h3>معلومات التواصل</h3>
+
+                <p>
+                    يمكنك التواصل معي عبر رسائل التواصل الاجتماعي أو البريد الاكتروني
+                </p>
+                 
+                 <p><i class="fa-solid fa-envelope"></i>Email: mod35y@gmail.com </p>
+  
+                <p><i class="fa-solid fa-phone"></i>Phone-Number: 776486412</p>
+
+                <p><i class="fa-solid fa-location-dot"></i>Location: YEMEN</p>
+
+              </div>                     
+
+              </div>
+
+        </div>
+
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+</html>
